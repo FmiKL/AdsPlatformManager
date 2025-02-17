@@ -1,0 +1,15 @@
+{
+    "name": "fmikl/adsplatformmanager",
+    "description": "API integration for advertising platforms operations management.",
+    "autoload": {
+        "psr-4": {
+            "AdvertisingApi\\": "src/"
+        }
+    },
+    "require": {
+        "googleads/google-ads-php": "^23.0",
+        "microsoft/bingads": "^13.0",
+        "monolog/monolog": "^3.8",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
